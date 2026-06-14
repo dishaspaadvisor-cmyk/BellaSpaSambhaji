@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Aurangabad Spa | Luxury spa wellness",
-  description: "Aurangabad Spa offers premium salon, facial, massage and beauty services with expert care and elegant style.",
+  description:
+    "Aurangabad Spa offers premium salon, facial, massage and beauty services with expert care and elegant style.",
   icons: {
     icon: "/logo4.png",
   },
@@ -26,6 +27,13 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="ki4l4-yCr0B5dMBNRRaz9jhu_VrSIXMHcWhfaAWtv6o"
+        />
+      </head>
+
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
