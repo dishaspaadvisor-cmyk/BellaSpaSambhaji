@@ -146,13 +146,62 @@ export default function Footer() {
             </h4>
 
             <ul className="space-y-4 text-gray-300">
-              <li>Full Body Massage</li>
-              <li>Female to Male Massage</li>
-              <li>Four Hand Massage</li>
-              <li>Thai Massage</li>
-              <li>Deep Tissue Massage</li>
-              <li>Hot Oil Massage</li>
-              <li>Swedish Massage</li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-yellow-500"
+                >
+                  Full Body Massage 
+                </Link>
+             </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-yellow-500"
+                >
+                  Female to Male Massage
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-yellow-500"
+                >
+                  Four Hand Massage 
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-yellow-500"
+                >
+                  Thai Massage
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-yellow-500"
+                >
+                  Deep Tissue Massage 
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-yellow-500"
+                >
+                  Hot Oil Massage 
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition hover:text-yellow-500"
+                >
+                  Swedish Massage 
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -215,19 +264,9 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-6">
-            <Link
-              href="/privacy-policy"
-              className="transition hover:text-yellow-500"
-            >
-              Privacy Policy
-            </Link>
-
-            <Link
-              href="/terms"
-              className="transition hover:text-yellow-500"
-            >
-              Terms & Conditions
-            </Link>
+            <span className="transition hover:text-[#EC268F]">
+               Unwind, Refresh, and Rejuvenate with Expert Spa Therapies
+           </span>
           </div>
         </div>
       </div>

@@ -57,8 +57,6 @@ export default function OffersSection() {
           className="object-cover transition duration-700 group-hover:scale-110"
         />
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent md:opacity-60 md:group-hover:opacity-90 opacity-80 transition duration-500" />
 
         {/* Content */}
         <div
@@ -66,28 +64,8 @@ export default function OffersSection() {
             absolute bottom-0 left-0 right-0 p-6 sm:p-8 text-white
           "
         >
-          {/* Title */}
-          <h3
-            className="
-              text-2xl sm:text-3xl font-bold
-              md:translate-y-8 md:group-hover:translate-y-0
-              transition duration-500
-            "
-          >
-            {offer.title}
-          </h3>
+          
 
-          {/* Description */}
-          <p
-            className="
-              mt-4 text-white/90 leading-7
-              md:max-h-0 md:overflow-hidden md:opacity-0
-              md:group-hover:max-h-40 md:group-hover:opacity-100
-              transition-all duration-500
-            "
-          >
-            {offer.description}
-          </p>
 
           {/* Buttons */}
           <div
