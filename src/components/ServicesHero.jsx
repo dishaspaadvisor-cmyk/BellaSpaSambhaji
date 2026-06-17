@@ -18,7 +18,7 @@ export default function ServicesHeroSection() {
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-center px-6">
         <div className="max-w-4xl text-center text-white">
-          <div className="mx-auto mb-8 h-16 w-1 bg-red-600" />
+          <div className="" />
 
           <h1 className="text-4xl font-bold md:text-6xl">
             Our Premium Luxury Spa & Massage Services
@@ -27,7 +27,7 @@ export default function ServicesHeroSection() {
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-2xl">
             Experience a complete range of luxury wellness therapies,
             relaxing massages, and rejuvenating treatments at
-            <span className="font-semibold text-red-400">
+            <span className="font-semibold text-yellow-400">
               {" "}
               Bella Spa
             </span>

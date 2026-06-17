@@ -18,8 +18,6 @@ export default function GalleryHeroSection() {
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-center px-6">
         <div className="max-w-4xl text-center text-white">
-          {/* Red Accent Line */}
-          <div className="mx-auto mb-8 h-16 w-1 bg-red-600" />
 
           {/* Heading */}
           <h1 className="text-4xl font-bold md:text-6xl">

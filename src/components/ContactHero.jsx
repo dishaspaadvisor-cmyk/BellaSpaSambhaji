@@ -18,8 +18,7 @@ export default function ContactHeroSection() {
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-center px-6">
         <div className="max-w-4xl text-center text-white">
-          {/* Red Accent Line */}
-          <div className="mx-auto mb-8 h-16 w-1 bg-red-600" />
+         
 
           {/* Heading */}
           <h1 className="text-4xl font-bold md:text-6xl">
@@ -29,7 +28,7 @@ export default function ContactHeroSection() {
           {/* Description */}
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-2xl">
             Get in touch with
-            <span className="font-semibold text-red-400">
+            <span className="font-semibold text-yellow-400">
               {" "}Bella Spa
             </span>
             {" "}for appointments, inquiries, and wellness consultations.

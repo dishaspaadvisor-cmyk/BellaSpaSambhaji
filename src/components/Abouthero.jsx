@@ -18,15 +18,15 @@ export default function AboutHeroSection() {
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-center px-6">
         <div className="max-w-4xl text-center text-white">
-          <div className="mx-auto mb-8 h-16 w-1 bg-red-600" />
+          <div className="" />
 
           <h1 className="text-5xl font-bold md:text-7xl">
-            Bella Spa
+           About Bella Spa
           </h1>
 
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-2xl">
             A luxury spa and wellness destination in
-            <span className="font-semibold text-red-400">
+            <span className="font-semibold text-yellow-400">
               {" "}
               Chhatrapati Sambhaji Nagar
             </span>

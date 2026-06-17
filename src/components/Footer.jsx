@@ -146,22 +146,7 @@ export default function Footer() {
             </h4>
 
             <ul className="space-y-4 text-gray-300">
-              <li>
-                <Link
-                  href="/services"
-                  className="transition hover:text-yellow-500"
-                >
-                  Full Body Massage 
-                </Link>
-             </li>
-              <li>
-                <Link
-                  href="/services"
-                  className="transition hover:text-yellow-500"
-                >
-                  Female to Male Massage
-                </Link>
-              </li>
+              
               <li>
                 <Link
                   href="/services"
