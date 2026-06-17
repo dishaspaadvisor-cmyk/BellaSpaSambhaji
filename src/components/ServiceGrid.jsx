@@ -8,7 +8,7 @@ const services = [
     image: "/services/1.jpg",
   },
   {
-    name: "Female to Male Massage",
+    name: "Thai Massage",
     description:
       "Professional massage provided by trained therapists in a comfortable, hygienic, and relaxing spa environment.",
     image: "/services/2.jpg",
