@@ -5,13 +5,13 @@ const services = [
     name: "Jacuzzi Massage",
     description:
       "A complete body massage designed to reduce stress, relax muscles, improve circulation, and restore energy.",
-    image: "/services/1.jpg",
+    image: "/services/2.jpg",
   },
   {
     name: "Thai Massage",
     description:
       "Professional massage provided by trained therapists in a comfortable, hygienic, and relaxing spa environment.",
-    image: "/services/2.jpg",
+    image: "/services/1.jpg",
   },
   {
     name: "Four Hand Massage",
