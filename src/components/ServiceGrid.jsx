@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const services = [
   {
-    name: "Full Body Massage",
+    name: "Jacuzzi Massage",
     description:
       "A complete body massage designed to reduce stress, relax muscles, improve circulation, and restore energy.",
     image: "/services/1.jpg",
