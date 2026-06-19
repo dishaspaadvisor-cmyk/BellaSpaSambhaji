@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="ki4l4-yCr0B5dMBNRRaz9jhu_VrSIXMHcWhfaAWtv6o"
         />
-        
+
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18253096902"
           strategy="afterInteractive"
@@ -44,6 +44,31 @@ export default function RootLayout({ children }) {
           function gtag(){window.dataLayer.push(arguments)}
           gtag('js', new Date());
           gtag('config', 'AW-18253096902');`}
+        </Script>
+        <Script id="gtag-conversion" strategy="afterInteractive">
+          {`gtag('event', 'conversion', {
+            send_to: 'AW-18253096902/kgt9CNSH9cEcEMbP4P9D',
+            value: 1.0,
+            currency: 'INR',
+            transaction_id: ''
+          });`}
+        </Script>
+        <Script id="gtag-report-conversion" strategy="afterInteractive">
+          {`function gtag_report_conversion(url) {
+            var callback = function () {
+              if (typeof url !== 'undefined') {
+                window.location = url;
+              }
+            };
+            gtag('event', 'conversion', {
+              send_to: 'AW-18253096902/kgt9CNSH9cEcEMbP4P9D',
+              value: 1.0,
+              currency: 'INR',
+              transaction_id: '',
+              event_callback: callback
+            });
+            return false;
+          }`}
         </Script>
       </head>
 
