@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
@@ -28,10 +29,22 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        
         <meta
           name="google-site-verification"
           content="ki4l4-yCr0B5dMBNRRaz9jhu_VrSIXMHcWhfaAWtv6o"
         />
+        
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18253096902"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments)}
+          gtag('js', new Date());
+          gtag('config', 'AW-18253096902');`}
+        </Script>
       </head>
 
       <body className="min-h-full flex flex-col">
