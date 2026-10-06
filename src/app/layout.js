@@ -3,6 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import ChatBot from "@/components/ChatBot";
+import MassageOfferPopup from "@/components/MassageOfferPopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -78,7 +79,8 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
-         <ChatBot />
+        <MassageOfferPopup />
+        <ChatBot />
       </body>
     </html>
   );
