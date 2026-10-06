@@ -119,11 +119,9 @@ export default function HeroSection() {
             <source src="/hero/hero.mp4" type="video/mp4" />
           </video>
 
-          {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black/60" />
+        
 
-          {/* Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+         
 
           {/* Content */}
           <div className="relative z-20 flex h-full flex-col justify-center px-6">
@@ -183,8 +181,8 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Floating Buttons - Hidden on mobile because they are prominent in the mobile hero section */}
-      <div className="fixed bottom-6 right-6 z-50 hidden flex-col gap-4 md:flex">
+      {/* Floating Buttons - Shown on both mobile and desktop */}
+      <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
         <Link
           href="tel:+919371000457"
           className="flex h-14 w-14 items-center justify-center rounded-full bg-yellow-500 text-xl shadow-lg transition hover:scale-110"
